@@ -30,11 +30,11 @@ All issuance transaction outputs that don't belong to the origin address represe
 ###4. Trade###
 A trade transaction moves the digital property ownership from one bitcoin address to another. A bitcoin transaction is a valid trade transaction if:
 * none of its inputs belongs to the origin address and
-* at least one of its outputs belongs to the origin address (this is called the reference payment) and
+* at least one of its outputs belongs to the origin address (this is called the marker payment) and
 * at least one of its outputs doesn't belong to the origin address and
 * sum of the digital property-carrying inputs equals the sum of the outputs that don't belong to the origin address.
 
-Reference payments don't transfer the property ownership, they just mark a bitcoin transaction as a Simple property trade transaction.
+Marker payments don't transfer the property ownership, they just mark a bitcoin transaction as a Simple property trade transaction.
 
 
 All other bitcoin transactions are ignored.
