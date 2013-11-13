@@ -34,7 +34,7 @@ A trade transaction moves the digital property ownership from one bitcoin addres
 * at least one of its outputs doesn't belong to the origin address and
 * sum of the digital property-carrying inputs equals the sum of the outputs that don't belong to the origin address.
 
-Marker payments don't transfer the property ownership, they just mark a bitcoin transaction as a Simple property trade transaction.
+Marker payments don't transfer the property ownership, they just mark a bitcoin transaction to be interpreted as a Simple property trade transaction.
 
 
 All other bitcoin transactions are ignored.
