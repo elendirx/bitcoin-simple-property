@@ -30,7 +30,7 @@ All issuance transaction outputs that don't belong to the origin address represe
 ###4. Trade###
 A trade transaction moves the digital property ownership from one bitcoin address to another. A bitcoin transaction is a valid trade transaction if:
 * none of its inputs belongs to the origin address and
-* at least one of its outputs belongs to the origin address (this is called a reference payment) and
+* at least one of its outputs belongs to the origin address (this is called the reference payment) and
 * at least one of its outputs doesn't belong to the origin address and
 * sum of the digital property-carrying inputs equals the sum of the outputs that don't belong to the origin address.
 
@@ -49,6 +49,10 @@ Bitcoin simple property doesn't require client integration. If the client allows
 ###Trading & Exchange###
 This proposal does not include any advanced exchange mechanism. Blockchain is not suitable for a high-speed, large scale trading due to its slowness and transaction cost. This is also the reason why the [trade contracts](https://en.bitcoin.it/wiki/Smart_Property) are not included in this proposal.
 
+
+Comments
+--------
+Please discuss the proposal in this thread: https://bitcointalk.org/index.php?topic=332600.0.
 
 
 
